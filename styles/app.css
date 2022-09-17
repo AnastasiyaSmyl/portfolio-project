@@ -1,0 +1,16 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+:root {
+  --main-font: "Playfair Display", serif;
+  --second-font: "Poppins", sans-serif;
+}
+
+h1 {
+  color: green;
+  font-family: var(--main-font);
+  font-weight: bold;
+}
+
+p {
+font-family: var(--second-font);
+}
