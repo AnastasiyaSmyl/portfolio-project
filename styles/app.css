@@ -6,23 +6,21 @@
 }
 
 @media (max-width: 900px) {
-
-    .hero {
-        padding: 80px 20px;
-    }
-
-   .hero h1 {
-        font-size: 56px;
-    }
-
-   .project-description h2{ 
-        font-size: 42px;
-    }
-  .project-description {
-    padding: 0;
-    text-align: center;
+  .hero {
+    padding: auto;
   }
 
+  .hero h1 {
+    font-size: 56px;
+  }
+
+  .project-description h2 {
+    font-size: 42px;
+  }
+  .project-description {
+    padding: 0 !important;
+    text-align: center;
+  }
 }
 
 .hero {
@@ -66,7 +64,7 @@
 .project-description {
   padding: 110px 40px;
 }
-    
+
 body {
   font-family: var(--main-font-family);
 }
