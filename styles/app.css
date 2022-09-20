@@ -21,6 +21,15 @@
     padding: 0 !important;
     text-align: center;
   }
+
+  .about-page {
+    text-align: center;
+    padding: 0;
+  }
+
+  .personal-photo {
+margin-top: 0 !important;
+}
 }
 
 .hero {
@@ -63,6 +72,30 @@
 
 .project-description {
   padding: 110px 40px;
+}
+ 
+.about-page {
+  padding: 100px 60px;
+
+}
+
+.about-page h1 {
+  font-size: 64px;
+  line-height:80px;
+}
+
+.about-page h4 {
+  font-size: 18px;
+  font-family: var(--second-font-family);
+}
+
+.about-page-content {
+  margin: 30px;
+}
+
+.personal-photo {
+  width: 450px;
+  
 }
 
 body {
