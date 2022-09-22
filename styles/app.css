@@ -3,6 +3,7 @@
   --second-font-family: "Poppins", sans-serif;
   --branding-color: #6c63ff;
   --secondary-color: #272142;
+  --bg-light: #F8F9FA;
 }
 
 @media (max-width: 900px) {
@@ -19,7 +20,7 @@
     text-align: center;
   }
 
-  .about-page {
+  .page-content {
     text-align: center;
     padding: 0;
   }
@@ -72,16 +73,17 @@ margin-top: 0 !important;
 }
  
 .page-container {
+  margin-top: 60px;
   padding: 100px 60px;
 
 }
 
-.about-page h1 {
+.page-content h1 {
   font-size: 64px;
   line-height:80px;
 }
 
-.about-page h4 {
+.page-content h4 {
   font-size: 18px;
   font-family: var(--second-font-family);
 }
@@ -93,6 +95,10 @@ margin-top: 0 !important;
 .personal-photo {
   width: 450px;
   
+}
+
+.bg-light {
+  background: var(--bg-light) !important;
 }
 
 body {
