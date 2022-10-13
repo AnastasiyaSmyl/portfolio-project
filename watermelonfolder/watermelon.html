@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Watermelon Project</title>
+    <style>
+      body {
+        background: linear-gradient(
+          44.8deg,
+          rgba(255, 136, 102, 0.67) -53.1%,
+          rgba(255, 221, 136, 0.28) 49%
+        );
+        width: 90%;
+        margin: 60px;
+      }
+      h1 {
+        text-align: center;
+        display: block;
+        color: #623f39;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+      h2 {
+        text-align: center;
+        color: #623f39;
+        display: block;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        border: 3px solid;
+        border-color: #4e4540;
+        padding: 15px 15px;
+        margin: 14px 100px;
+        font-size: 25px;
+        border-radius: 5px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        border-radius: 10px;
+        background-color: #d5f3d5;
+      }
+      p {
+        color: #623f39;
+        text-align: center;
+        display: block;
+        margin: 20px auto;
+        font-size: large;
+      }
+
+      .main {
+        text-align: justify;
+        display: block;
+        color: #623f39;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        margin: 20px 10px;
+      }
+      button {
+        display: block;
+        margin: 50px auto;
+        background: #623f39;
+        color: #d5f3d5;
+        font-size: 15px;
+        padding: 20px 40px;
+        border: none;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10 px rgba(255, 221, 136, 0.28);
+        transition: all 200ms ease-in-out;
+        line-height: 18px;
+      }
+      button:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+
+      a {
+        color: #623f39;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #301802;
+        font-weight: bold;
+      }
+      h5 {
+        text-align: right;
+        display: block;
+        color: #623f39;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>I love Watermelon</h1>
+
+    <h2>Mean's I'm watermelon lover 🍉</h2>
+    <hr />
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/037/760/original/can-eating-watermelon-help-hydrate-you-1654538234.jpg?1655650465"
+    />
+    <hr />
+
+    <p class="main">
+      Watermelon is a sweet, commonly consumed fruit of summer, usually as fresh
+      slices, diced in mixed fruit salads, or as juice. Watermelon fruit is 91%
+      water, contains 6% sugars, and is low in fat. Only vitamin C is present in
+      appreciable content at 10% of the Daily Value. Watermelon pulp contains
+      carotenoids, including lycopene. Healthy and delicious, watermelon is a
+      superfood that surprises and delights. You can’t spell watermelon without
+      water, and the health benefits don’t stop at the juicy hydration. There
+      are vitamins and minerals, antioxidants and amino acids. Watermelon is
+      part of a healthy lifestyle that contributes to whole body wellness.
+      Watermelon is as happy as it is healthy.
+    </p>
+    <br />
+
+    <p class="link">
+      Learn more about this fruit on
+      <a
+        href="https://en.wikipedia.org/wiki/Watermelon#Food_and_beverage"
+        target="_blank"
+      >
+        Wikipedia
+      </a>
+      or find a delicious recipe with
+      <a href="https://www.watermelon.org/" target="_blank"> Watermelon.org </a>
+    </p>
+    <button>Interesting 🤔</button>
+    <script>
+      function putButton() {
+        let name = prompt("What's your name?");
+        let fruit = prompt("What's your favorite fruit?");
+        if (fruit === "watermelon") {
+          alert("Wow! " + name + " you are also a watermelon lover!!!");
+        } else {
+          alert(
+            "Congratulations! " + name + ", you are a " + fruit + " lover!!!"
+          );
+        }
+      }
+      let interestingButton = document.querySelector("button");
+      interestingButton.addEventListener("click", putButton);
+    </script>
+    <br />
+    <h5>
+      This page created by
+      <a href="https://www.facebook.com/nastellasmyl" target="_blank">
+        Anastasiya Smyslova 💛💙
+      </a>
+    </h5>
+  </body>
+</html>
