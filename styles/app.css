@@ -5,6 +5,7 @@
   --secondary-color: #066777;
   --bg-light: #FEFFCC;
   --button-color: #B3B6B4;
+  --paragraph-color: #646466;
 }
 
 
@@ -31,7 +32,12 @@
   
   .personal-photo {
     margin-top: 0 !important;
-  }
+  }  
+}
+
+@media (max-width:768px) {
+
+
 
   
 }
@@ -82,7 +88,11 @@
 }
 
 .project-description {
-  padding: 50px 40px;
+  padding: 37px 27px;
+}
+ 
+.description-paragraph{
+  color: var(--paragraph-color) !important;
 }
  
 .page-container {
@@ -163,7 +173,7 @@ h5 {
 }
 
 p {
-  color: var(--button-color);
+  color: var(--paragraph-color);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
