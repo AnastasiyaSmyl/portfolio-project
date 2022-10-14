@@ -9,7 +9,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 540px) {
 
   
   .hero {
@@ -19,6 +19,15 @@
   .hero h1 {
     font-size: 56px;
   }
+
+  .page-container h1{
+    font-size: 45px !important;
+  }
+
+    .page-container h2 {
+  font-size: 35px !important;
+    }
+
 
   .project-description {
     padding: 0 !important;
@@ -33,12 +42,19 @@
   .personal-photo {
     margin-top: 0 !important;
   }  
+
 }
+
 
    
  .navbar-brand,
  .nav-link {
   color: var(--branding-color);
+ }
+
+ .navbar-brand:hover,
+ .nav-link:hover {
+  color: var(--button-color);
  }
 
 .hero {
@@ -48,7 +64,6 @@
 }
 
 .hero p {
-  font-family: var(--second-font-family);
   color: var(--secondary-color);
   font-size: 36px;
   font-weight: bold;
@@ -169,6 +184,7 @@ h5 {
 
 p {
   color: var(--paragraph-color);
+  font-family: var(--second-font-family);
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
