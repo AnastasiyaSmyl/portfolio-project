@@ -80,7 +80,7 @@
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
-  color: white;
+  color: var(--bg-light);
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -97,10 +97,21 @@
   padding: 15px 30px;
 }
 
+
+
 .project-description {
   padding: 37px 27px;
 }
  
+.project-information{
+  color: var(--secondary-color);
+}
+
+.project-information:hover {
+  color: var(--branding-color);
+
+}
+
 .description-paragraph{
   color: var(--paragraph-color) !important;
 }
